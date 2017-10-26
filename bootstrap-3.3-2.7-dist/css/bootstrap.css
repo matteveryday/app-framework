@@ -7069,7 +7069,7 @@ td > span.small {
 }
 
 /* Red Links */
-.link-red {
+a.link-red {
 	color: #D95150;
 }
 
