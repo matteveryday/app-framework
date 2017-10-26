@@ -268,7 +268,7 @@ th {
 }
 .glyphicon {
   position: relative;
-  top: 1px;
+  top: 0px;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
@@ -3648,7 +3648,7 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
-    right: 0;
+    right: 2px;
     left: auto;
   }
   .navbar-right .dropdown-menu-left {
@@ -4469,7 +4469,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
-  border-top-left-radius: 0;
+  border-top-left-radius: 3px;
   border-top-right-radius: 0;
 }
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
