@@ -4715,7 +4715,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     border-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #080808;
+    background-color: transparent;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #9d9d9d;
@@ -7067,4 +7067,10 @@ td > span.small {
 #shortTermLifeCard {
 	background-color: rgba(72, 148, 151, .7);
 }
+
+/* Red Links */
+.link-red {
+	color: #D95150;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
