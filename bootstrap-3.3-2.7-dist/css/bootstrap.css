@@ -4676,7 +4676,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 		border-bottom: 3px solid transparent;
 		border-top: 3px solid transparent;
 }
-	.nabvar-inverse .navbar-nav > li > a {
+	.navbar-inverse .navbar-nav > li > a {
 		font-size: 18px;
 	}
 	.dropdown-menu > li > a {
