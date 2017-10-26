@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="/bootstrap-3.3-2.7-dist/css/bootstrap.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="index.html">Clients</a></li>
+            <li><a href="#">Sales</a></li> 
+            <li class="active"><a href="#">Quoting<span class="sr-only">(current)</span></a></li> 
+            <li><a href="#">Products</a></li> 
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="glyphicon glyphicon-search" href="#"></a></li>
+            <li><a class="glyphicon glyphicon-bell" href="#"></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Agency Profile</a></li>
+                <li><a href="#">Appointments</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+			
+			<!-- Breadcrumb bar hidden -->
+			<div class="navbar breadcrumb-fixed hidden">
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+                <li><a href="#">First Item</a></li>
+                <li><a href="#">Second Item</a></li>
+                <li><a class="active" href="#">Third Item</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+			<section class="sidebar hidden-xs">
+				<div class="logo-area-container">
+					<div class="logo-area">
+						<img src="imgs/Larsen_Logo@0.5x.png">
+					</div>
+				</div>
+				<!-- Small back button on sidenav currently hidden -->
+				<div class="sidebar-back hidden">
+					<a><span class="glyphicon glyphicon-menu-left"></span>Back to last page</a>
+				</div>
+				<ul class="nav nav-pills nav-stacked">	
+					<li role="presentation"><a href="#">First Item</a></li>
+					<li role="presentation"><a href="#">Second Item</a></li>
+					<li role="presentation"><a href="#">Third Item</a></li>
+				</ul>
+				<div class="secondary-logo-area-container">
+					<a href="https://www.nexben.com" class="secondary-logo-area">
+						<img src="imgs/Nexben-Logo-Primary-200px.png">
+					</a>
+				</div>
+			</section>
+
+			<section class="workspace">
+				<div class="workspace-area">
+					<div class="row workspace-header">	
+						<div class="col-sm-9">
+							<h2 class="no-margin">Quoting</h2>
+						</div>
+						<div class="col-sm-3 hidden-xs">
+							<a class="pull-right btn btn-primary">View Appointments</a>
+						</div>
+					</div>
+					<div class="row workspace-content">
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="medicalCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>Medical Insurance</h4>
+									<p class="">25 Group Products<br>145 Individual Products</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="dentalCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>Dental Insurance</h4>
+									<p class="">25 Group Products<br>145 Individual Products</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="visionCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>Vision Insurance</h4>
+									<p class="">25 Group Products<br>145 Individual Products</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="hsaCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>HSAs</h4>
+									<p class="">5 Individual Products<br>-</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="basicLifeCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>Basic Life</h4>
+									<p class="">5 Individual Products<br>-</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="voluntaryLifeCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>Voluntary Life</h4>
+									<p class="">25 Group Products<br>145 Individual Products</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="dependentCareCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>Dependent Care</h4>
+									<p class="">25 Group Products<br>145 Individual Products</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="panel panel-default">
+								<div id="shortTermLifeCard" class="panel-heading image-card">
+								</div>
+								<div class="panel-body">
+									<h4>Short Term Life</h4>
+									<p class="">25 Group Products<br>145 Individual Products</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+			sdlsdjkkjsf</section>
+
+
+		
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
