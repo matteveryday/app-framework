@@ -4662,6 +4662,15 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 	border-bottom: 3px solid #337AB7;
 	border-top: 3px solid #1D2128;
 }
+@media (max-height: 767px) {
+	.navbar-inverse .navbar-nav > li.active > a,
+	.navbar-inverse .navbar-nav > li.active > a:focus {
+	color: #fff;
+  background-color: #1D2128;
+	border-bottom: 3px solid transparent;
+	border-top: 3px solid transparent;
+}
+}
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
@@ -4680,7 +4689,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  background-color: #293241;
+	height: 100vh;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
